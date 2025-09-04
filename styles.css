@@ -1,0 +1,96 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    background: #f2f2f2; 
+    padding: 0;
+    margin:0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+fieldset {
+    display: flex;
+    gap: 3rem;
+    border: none;
+    padding-left: 0;
+}
+
+label {
+    font-size: 0.6rem; 
+}
+
+button {
+    all: unset; /*resets all properties to initial/inherited values*/
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow:0 3px 3px rgb(204, 202, 202);
+}
+
+a {
+ text-decoration: none;
+ color: #596D48;
+ font-weight: bold;
+}
+
+fieldset div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_top {
+    background-color: white;    
+    padding-left: 2.3rem;  
+    margin-bottom: 1rem;     
+    box-shadow: 0 3px 6px rgba(19, 18, 18, 0.15);
+}
+
+.form_bottom {
+    padding-top: 1rem;
+    padding-left: 2.3rem;
+    background-color: white;   
+}
+
+.logo_section {
+    position: relative;
+}
+
+.logo_area {
+    height: 150px;
+    top: 28vh;
+    position:absolute;
+    color: white;
+    font-size: 8em;
+    font-family: norse-bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(5, 5, 5, 0.5);
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+.logo_area img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
